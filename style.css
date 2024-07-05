@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  /* ... (rest of your existing CSS) ... */
+  
+  #saveButton { /* Add styles for the save button */
+    position: fixed;  /* Position it relative to the viewport */
+    bottom: 20px;     /* Distance from the bottom */
+    right: 20px;      /* Distance from the right */
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Example background color */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer;
+  }
+
+  #deleteSaveButton { /* Add styles for the delete button */
+    position: fixed;       /* Position it relative to the viewport */
+    top: 20px;             /* Distance from the top */
+    right: 20px;           /* Distance from the right */
+    padding: 10px 20px; 
+    background-color: #f44336; /* Red background color */
+    color: white;
+    border: none;
+    border-radius: 5px;     /* Add rounded corners */
+    cursor: pointer;
+  }
